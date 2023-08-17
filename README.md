@@ -46,6 +46,18 @@ Com o seu ambiente configurado, basta baixar o projeto e rodar ele no seu editor
     - Cloud Functions
     - Authentication
 
+### Trabalho futuro
+
+* Histórico e lista de favoritos com atualização automática
+    * No momento, o usuário precisa user o pull-to-refresh em cada tela a fim de ter os dados mais atualizados.
+
+* Testes
+    * É necessário adicionar os testes unitários que ficaram faltando e adicionar um teste para garantir que a paginação infinita e o pull-to-refresh estão funcionando durante o teste de integração.
+
+* Adicionar Google e Apple como opção de autenticação
+
+* Melhorar o design do aplicativo
+
 ## Importante
 
 Inicialmente, nenhuma palavra será carregada, uma vez que o Firebase não possui nenhuma registrada. Para o desenvolvimento desse projeto, foi criado um aplicativo cujo objetivo é apenas ler um arquivo JSON e criar os registros no Firebase com as palavras encontradas nele. Você pode ter acesso ao código dele na pasta firebase_loader deste projeto. Basta você criar um projeto novo do Flutter e seguir as instruções a seguir:
