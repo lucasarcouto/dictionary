@@ -48,4 +48,6 @@ Com o seu ambiente configurado, basta baixar o projeto e rodar ele no seu editor
 
 ## Importante
 
+Inicialmente, nenhuma palavra será carregada, uma vez que o Firebase não possui nenhuma registrada. Para o desenvolvimento desse projeto, foi criado um aplicativo cujo objetivo é apenas ler um arquivo JSON e criar os registros no Firebase com as palavras encontradas nele. Você pode ter acesso ao código dele na pasta firebase_loader deste projeto. A única configuração necessária é adicionar os arquivos baixados anteriormente do Firebase nesse projeto para que ele possa se comunicar com o Firestore que foi configurado.
+
 >  This is a challenge by [Coodesh](https://coodesh.com/)
