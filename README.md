@@ -48,6 +48,12 @@ Com o seu ambiente configurado, basta baixar o projeto e rodar ele no seu editor
 
 ## Importante
 
-Inicialmente, nenhuma palavra será carregada, uma vez que o Firebase não possui nenhuma registrada. Para o desenvolvimento desse projeto, foi criado um aplicativo cujo objetivo é apenas ler um arquivo JSON e criar os registros no Firebase com as palavras encontradas nele. Você pode ter acesso ao código dele na pasta firebase_loader deste projeto. A única configuração necessária é adicionar os arquivos baixados anteriormente do Firebase nesse projeto para que ele possa se comunicar com o Firestore que foi configurado.
+Inicialmente, nenhuma palavra será carregada, uma vez que o Firebase não possui nenhuma registrada. Para o desenvolvimento desse projeto, foi criado um aplicativo cujo objetivo é apenas ler um arquivo JSON e criar os registros no Firebase com as palavras encontradas nele. Você pode ter acesso ao código dele na pasta firebase_loader deste projeto. Basta você criar um projeto novo do Flutter e seguir as instruções a seguir:
+
+1. Adicionar os arquivos de configuração do Firebase
+2. Mover a pasta ```assets``` para o novo projeto e, caso queira, adicionar novas palavras
+3. Adicionar o Widget HomePage como a home do seu aplicativo e rodar o projeto.
+
+Com o aplicativo rodando, tocar em Add vai iniciar o processo de registro das palavras. Você pode acompanhar o progresso pelo Debug Console do seu editor.
 
 >  This is a challenge by [Coodesh](https://coodesh.com/)
