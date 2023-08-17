@@ -8,7 +8,7 @@ Após uma palavra ser aberta, ela é adicionada ao histórico de palavras vistas
 
 Este projeto foi desenvolvido utilizando Flutter e com a aplicação de conceitos como Clean Architecture, Clean Code, DRY e BLoC.
 
-### Configurações
+## Configurações
  
 Antes de seja possível rodar este projeto na sua máquina, é necessário criar uma conta do Firebase e configurar os componentes a seguir:
 
@@ -26,7 +26,7 @@ Agora que todo nosso backend está configurado, podemos configurar o nosso proje
 
 Com o seu ambiente configurado, basta baixar o projeto e rodar ele no seu editor.
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Frontend
   - Flutter
@@ -46,7 +46,7 @@ Com o seu ambiente configurado, basta baixar o projeto e rodar ele no seu editor
     - Cloud Functions
     - Authentication
 
-### Trabalho futuro
+## Trabalho futuro
 
 * Histórico e lista de favoritos com atualização automática
     * No momento, o usuário precisa user o pull-to-refresh em cada tela a fim de ter os dados mais atualizados.
