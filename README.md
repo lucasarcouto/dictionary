@@ -12,9 +12,9 @@ Este projeto foi desenvolvido utilizando Flutter e com a aplicação de conceito
  
 Antes de seja possível rodar este projeto na sua máquina, é necessário criar uma conta do Firebase e configurar os componentes a seguir:
 
-1 - Cloud Firestore - a configuração padrão que eles sugerem deve ser o suficiente, a única sugestão seria escolher o servidor mais próximo possível de onde você se encontra para diminuir o tempo de resposta.
-2 - Authentication - para esse projeto, vamos utilizar apenas login com email e senha, então garanta que esse método está ativo.
-3 - Cloud Functions - Nós vamos utilizar uma função para acessar a WordsAPI, portanto basta seguir as instruções [deste link](https://firebase.google.com/docs/functions/get-started?gen=1st) para inicializar a função
+1. Cloud Firestore - a configuração padrão que eles sugerem deve ser o suficiente, a única sugestão seria escolher o servidor mais próximo possível de onde você se encontra para diminuir o tempo de resposta.
+2. Authentication - para esse projeto, vamos utilizar apenas login com email e senha, então garanta que esse método está ativo.
+3. Cloud Functions - Nós vamos utilizar uma função para acessar a WordsAPI, portanto basta seguir as instruções [deste link](https://firebase.google.com/docs/functions/get-started?gen=1st) para inicializar a função
   - Após a função ter iniciado, abre um terminal e navegue até a pasta functions do projeto e instale o pacote Axios. Para isso, basta rodar ```npm install axios```.
   - Agora, precisamos atualizar o código do arquivo index.ts com o código que você encontra [aqui](https://github.com/lucasarcouto/dictionary/blob/main/functions/index.ts)
 
