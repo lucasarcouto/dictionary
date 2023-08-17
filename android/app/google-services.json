@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "841242446184",
+    "project_id": "dictionary-lc",
+    "storage_bucket": "dictionary-lc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841242446184:android:d4d10e6ad203064c7e2edd",
+        "android_client_info": {
+          "package_name": "dev.lucascouto.dictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841242446184-6smbgsf29s39etceiurt1ti2r305i349.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.lucascouto.dictionary",
+            "certificate_hash": "248302f90f3190b4bcb25e7aec8c92cc1ca87310"
+          }
+        },
+        {
+          "client_id": "841242446184-atvolapotrfrt4bsjitihaqqkc2qil4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAPEh5Fs4YYLfvqZnlEavs9vcZbsfTF2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841242446184-atvolapotrfrt4bsjitihaqqkc2qil4n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "841242446184-far71dmpobk2d3prdquf52ninqciaeqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.lucascouto.dictionary"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

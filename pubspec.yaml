@@ -1,0 +1,63 @@
+name: dictionary
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cloud_firestore: ^4.8.4
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.0
+  flutter_hooks: ^0.18.4
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  go_router: ^10.0.0
+  dio: ^5.3.2
+  flutter_tts: ^3.7.0
+
+  # Drift dependencies
+  drift: ^2.11.0
+  sqlite3_flutter_libs: ^0.5.15
+  path_provider: ^2.1.0
+  path: ^1.8.3
+  mocktail: ^1.0.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_lorem: ^2.0.0
+
+  # Drift dependencies
+  drift_dev: ^2.11.0
+  build_runner: ^2.4.6
+  bloc_test: ^9.1.4
+  fake_cloud_firestore: ^2.4.1+1
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  adaptive_icon_background: "#ffd6b8"
+  adaptive_icon_foreground: "assets/icon_android.png"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
