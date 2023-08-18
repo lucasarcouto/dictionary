@@ -17,6 +17,7 @@ Antes de seja possível rodar este projeto na sua máquina, é necessário criar
 3. Cloud Functions - Nós vamos utilizar uma função para acessar a WordsAPI, portanto basta seguir as instruções [deste link](https://firebase.google.com/docs/functions/get-started?gen=1st) para inicializar a função.
     * Após a função ter iniciado, abre um terminal e navegue até a pasta functions do projeto e instale o pacote Axios. Para isso, basta rodar ```npm install axios```.
     * Agora, precisamos atualizar o código do arquivo index.ts com o código que você encontra [aqui](https://github.com/lucasarcouto/dictionary/blob/main/functions/index.ts).
+    * Para essa função funcionar corretamente, é necessário criar um arquivo chamado ```.env``` na pasta functions e, dentro dele, adicionar uma variável chamada ```WORDS_API_KEY``` contendo a chave de acesso da API. Para conseguir uma, é necessário fazer o registro [nesse link](https://rapidapi.com/dpventures/api/wordsapi/pricing).
 
 Agora que tudo está configurado, precisamos criar os aplicativos que vamos precisar dentro do Firebase (durante o desenvolvimento, foram utilizados apenas Android e iOS). O único dado que é de extrema importância que esteja correto, é o package - ele precisa ser igual ao do nosso projeto. Nesse caso, o package escolhido foi dev.lucascouto.dictionary.
 
