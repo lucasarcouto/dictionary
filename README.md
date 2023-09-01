@@ -68,7 +68,3 @@ Inicialmente, nenhuma palavra será carregada, uma vez que o Firebase não possu
 3. Adicionar o Widget HomePage como a home do seu aplicativo e rodar o projeto.
 
 Com o aplicativo rodando, tocar em Add vai iniciar o processo de registro das palavras. Você pode acompanhar o progresso pelo Debug Console do seu editor.
-
-
-
->  This is a challenge by [Coodesh](https://coodesh.com/)
