@@ -2,6 +2,7 @@ import 'package:dictionary/presentation/pages/auth/sign_in_page.dart';
 import 'package:dictionary/presentation/pages/home/home_page.dart';
 import 'package:dictionary/presentation/pages/home/widgets/favorites/favorites_page.dart';
 import 'package:dictionary/presentation/pages/home/widgets/history/history_page.dart';
+import 'package:dictionary/presentation/pages/home/widgets/words_grid.dart';
 import 'package:dictionary/presentation/pages/home/widgets/words_list/words_list_page.dart';
 import 'package:dictionary/presentation/pages/word_details/widgets/word_details_content.dart';
 import 'package:dictionary/presentation/widgets/custom_text_form_field.dart';
@@ -64,8 +65,10 @@ void main() {
       expect(find.byType(HistoryPage), findsOneWidget);
 
       final historyGridChildren = find.descendant(
-          of: find.byType(GridView), matching: find.byType(GestureDetector));
+          of: find.byType(RefreshIndicator), matching: find.byType(WordsGrid));
       expect(historyGridChildren, findsWidgets);
+
+      expect(find.byType(WordsGrid), findsOneWidget);
 
       //! list of words is loaded for FavoritesPage
       final favoritesBottomItem = find.text('Favorites');
@@ -76,8 +79,10 @@ void main() {
       expect(find.byType(FavoritesPage), findsOneWidget);
 
       final favoritesGridChildren = find.descendant(
-          of: find.byType(GridView), matching: find.byType(GestureDetector));
+          of: find.byType(RefreshIndicator), matching: find.byType(WordsGrid));
       expect(favoritesGridChildren, findsWidgets);
+
+      expect(find.byType(WordsGrid), findsOneWidget);
 
       //! navigate to list of words
       final wordsBottomItem = find.text('Words');
